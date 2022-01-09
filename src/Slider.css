@@ -1,0 +1,40 @@
+.img-box {
+  width: 70vw;
+  height: 200px;
+  padding: 0 12px;
+  float: left;
+}
+
+.wrap-slider {
+  overflow: hidden;
+}
+.wrap-box {
+  width: 300vw;
+  transition: all 0.4s;
+  transform: translateX(-58vw);
+}
+
+.btn {
+  border-radius: 15px;
+  background-color: #fff;
+  border: 0;
+  opacity: 0.5;
+  height: 60px;
+  width: 30px;
+  color: inherit;
+  position: absolute;
+  top: 120px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.left {
+  left: 0px;
+}
+.right {
+  right: 0px;
+}
+
+img {
+  border-radius: 4px;
+}
